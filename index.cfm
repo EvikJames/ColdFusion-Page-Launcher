@@ -19,7 +19,7 @@
   </head>
   <body>
 
-  	<!--- removed the two comments on newbranch1 --->
+  	<!--- ADDED IN MASTER --->
 
   	<cfscript>
   		RRCList = "1642,9959,10573,8438";
