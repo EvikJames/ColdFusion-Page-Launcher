@@ -18,8 +18,8 @@
     <![endif]-->
   </head>
   <body>
-  	<!--- added on more comment --->
-  	<!--- added a comment --->
+
+  	<!--- removed the two comments on newbranch1 --->
 
   	<cfscript>
   		RRCList = "1642,9959,10573,8438";
