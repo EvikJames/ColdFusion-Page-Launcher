@@ -19,8 +19,9 @@
   </head>
   <body>
 
-  	<cfscript>
+  	<!--- added a comment --->
 
+  	<cfscript>
   		RRCList = "1642,9959,10573,8438";
   		ProVidList = "17578";
   		BasicList = "1153,4660,12331";
