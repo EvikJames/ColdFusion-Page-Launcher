@@ -20,12 +20,13 @@
   <body>
 
   	<cfscript>
-  		PINList = "1642,9959,10573,8438";
+
+  		RRCList = "1642,9959,10573,8438";
   		ProVidList = "17578";
   		BasicList = "1153,4660,12331";
   		BasicPlusList = "17174";
   		TreatmentList = "2688,13284,10388,2599,2575,2688,15607,1224,971";
-  		CatalogList = PINList & ',' & ProVidList & ',' & BasicList & ',' & BasicPlusList & ',' & TreatmentList;
+  		CatalogList = RRCList & ',' & ProVidList & ',' & BasicList & ',' & BasicPlusList & ',' & TreatmentList;
 
   		LocalBase = "http://127.0.0.1:8500/avcat";
   		DevBase = "http://dev.av-iq.com/avcat";
@@ -97,7 +98,7 @@
 						</cfscript>
 						<tr>
 							<td>#CatID#</td>
-							<cfif listFind(PINList, CatID)>
+							<cfif listFind(RRCList, CatID)>
 								<td><span class="label label-danger">RRC</span></td>
 							<cfelseif listFind(ProVidList, CatID)>
 								<td><span class="label label-success">Pro Video</span></td>
